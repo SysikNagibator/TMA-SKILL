@@ -1,6 +1,6 @@
-[English](README.md) | **Русский**
-
 # TMA-SKILL
+
+[English](README.md) | **Русский**
 
 Скилл для ИИ-кодовых агентов — **Claude Code, OpenCode, Cursor** — который заставляет их делать премиальные, Telegram-нативные **Telegram Mini Apps** вместо обычного нейрослопа.
 
