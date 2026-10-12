@@ -76,6 +76,10 @@ Why: Telegram requires public HTTPS with valid cert. `https://localhost` with se
 - three.js `lazy()`, `dpr<=2`, pause on `isActive=false`, poster fallback, `prefers-reduced-motion` respected, <30% CPU on low-end Android (check perf class in User-Agent).
 - Motion 120–250ms ease-out, skeletons over spinners, `disableVerticalSwipes()` only on gesture conflict.
 
+## Reference library
+
+Full catalog: `references/_index.md` — 25+ guides (frontend, backend, quality, ship). If a guide answers the question, follow it; core guides win on conflict.
+
 ## Sources
 
 - `core.telegram.org/bots/webapps` — init, initData/Unsafe, ThemeParams, BackButton/BottomButton, Haptic, CloudStorage, viewport, data validation.

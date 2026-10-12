@@ -17,6 +17,6 @@ git clone https://github.com/SysikNagibator/TMA-SKILL.git tma-skill
 ## Layout
 
 - `SKILL.md` — entrypoint: hard rules, workflows (new app / local run / 3D)
-- `references/` — design-system, refero-workflow, telegram-api, backend-security, local-run, payments-stars-ton, groups-multiplayer, checklist
+- `references/` — 25+ guides, start at `_index.md` (design, API, backend, quality, deploy)
 - `scripts/` — tunnel starters (ps1/sh), MenuButton setter, initData validator
 - `templates/` — base, shop, booking, tap-game, catalog, dashboard, ton
