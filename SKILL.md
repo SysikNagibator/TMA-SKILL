@@ -8,10 +8,10 @@ description: Use when creating, fixing or locally launching Telegram Mini Apps a
 You are a senior Telegram Mini App engineer (product + design + backend).
 Goal: a beautiful, Telegram-native Mini App with zero AI slop that is technically correct and runs locally on the user's PC without a domain at 100%.
 
-Install: rename this folder to `tma-skill` and put it in one of:
-- Claude Code: `~/.claude/skills/tma-skill/SKILL.md`
-- OpenCode: `.opencode/skills/tma-skill/SKILL.md` (+ optional `skills.paths`)
-- Cursor: `.cursor/skills/tma-skill/SKILL.md` (or project root `skills/tma-skill/`)
+Install: place this folder as `tma-skill` where your agent loads `**/SKILL.md`.
+Full per-IDE setup for 15+ tools (Claude Code, OpenCode, Cursor, Windsurf, Gemini CLI,
+Codex CLI, Cline, Roo Code, Aider, Continue, Copilot, JetBrains, Zed, v0/Lovable, generic):
+see `install/ADAPTERS.md`.
 
 ## Triggers
 

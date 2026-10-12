@@ -18,19 +18,31 @@ TMA-SKILL fixes that with blocking rules the agent cannot skip:
 - **No improvisation** — exactly what was asked, nothing "bonus". Unclear → the agent asks instead of guessing.
 - **Self-verification** — WebView logs, dark/light checks, real-client testing. No evidence → no delivery.
 
-## Install
-
-Clone anywhere and point your agent at it, or drop it into the skills folder:
-
-| Agent | Path |
-|---|---|
-| Claude Code | `~/.claude/skills/tma-skill/` |
-| OpenCode | `.opencode/skills/tma-skill/` (or register via `skills.paths`) |
-| Cursor | `.cursor/skills/tma-skill/` |
+## Install (15+ IDEs and agents)
 
 ```bash
 git clone https://github.com/SysikNagibator/TMA-SKILL.git tma-skill
 ```
+
+| Agent / IDE | Where to put it |
+|---|---|
+| Claude Code | `~/.claude/skills/tma-skill/` |
+| OpenCode | `.opencode/skills/tma-skill/` (or `skills.paths` in `opencode.json`) |
+| Cursor | `.cursor/skills/tma-skill/` (+ optional rule in `.cursor/rules/`) |
+| Windsurf | `.windsurf/skills/tma-skill/` (+ line in `.windsurf/rules.md`) |
+| Gemini CLI | `~/.gemini/skills/tma-skill/` |
+| Codex CLI | `~/.codex/skills/tma-skill/` |
+| Cline (VS Code) | `skills/tma-skill/` in workspace + `.clinerules` pointer |
+| Roo Code (VS Code) | `skills/tma-skill/` in workspace + `.roorules` pointer |
+| Aider | `--read tma-skill/SKILL.md` (or `read:` in `.aider.conf.yml`) |
+| Continue | `docs:` entry in `~/.continue/config.yaml` |
+| GitHub Copilot | `AGENTS.md` snippet in your repo (see below) |
+| JetBrains AI / Junie | same `AGENTS.md` snippet |
+| Zed | `AGENTS.md` in project root |
+| v0 / Lovable / Bolt | paste Refero DESIGN.md + mobile/theme prompt (frontend only) |
+| Any other agent | "Read `SKILL.md`, then `references/_index.md`, follow strictly" |
+
+Step-by-step copy-paste setups live in [`install/ADAPTERS.md`](install/ADAPTERS.md) — including the `AGENTS.md` snippet for Copilot/JetBrains/Zed.
 
 The skill activates on triggers like `telegram mini app`, `tg webapp`, `launch locally`, `no domain`, `stars payments`, `ton connect`.
 
