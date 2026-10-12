@@ -1,5 +1,7 @@
 # TMA-SKILL
 
+**English** | [Русский](README-ru.md)
+
 A skill for AI coding agents — **Claude Code, OpenCode, Cursor** — that makes them build premium, Telegram-native **Telegram Mini Apps** instead of generic AI slop.
 
 With this skill, the agent ships Mini Apps with real product taste, a correct WebApp API integration, secure `initData` auth, Stars / TON / group features — and runs the whole thing **locally on your PC without a domain** (public HTTPS tunnel + polling bot), verified inside real Telegram clients.
