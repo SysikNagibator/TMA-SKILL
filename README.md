@@ -2,7 +2,7 @@
 
 # TMA-SKILL
 
-![TMA-SKILL-EN](https://files.catbox.moe/k2ut40.png)
+![TMA-SKILL-EN](https://files.catbox.moe/gh3h4o.png)
 
 A skill for AI coding agents — **Claude Code, OpenCode, Cursor** — that makes them build premium, Telegram-native **Telegram Mini Apps** instead of generic AI slop.
 
